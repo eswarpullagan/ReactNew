@@ -1,0 +1,83 @@
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+dist/
+build/
+.temp/
+.cache/
+.docusaurus/
+.next/
+.out/
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+jest/
+cypress/screenshots/
+cypress/videos/
+
+# Miscellaneous
+*.lock
+.npmrc
+.yarnrc
+.eslintcache
+.parcel-cache/
+turbo/
+storybook-static/
+
+# Ignore specific package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript build files (if using TypeScript)
+*.tsbuildinfo
+
+# Husky hooks
+.husky/
+
+# Lint cache
+.eslintcache
+
+# Service workers
+workbox-config.js
+
+# Firebase
+.firebase/
+
+# Next.js specific
+.next/
+
+# Sentry files
+.sentryclirc
+
+# Ignore generated React app files
+public/
